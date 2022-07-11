@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="375f0851-d3eb-4fde-bd86-67957c3468d0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/12e76cd50cc64cf19e759e981cb725aff6400/12/ad3c6e21/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/12e76cd50cc64cf19e759e981cb725aff6400/6e/103c3cb0/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/12e76cd50cc64cf19e759e981cb725aff6400/c3/e2b25bd5/HeaderAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/12e76cd50cc64cf19e759e981cb725aff6400/e4/9e8b7267/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/390b9b31902c410d95545218590d63b617a318/88/7374d10e/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4895ba61f13d4d3785759f63dd7cd7ba2a4400/02/029cc3c3/AreaManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4895ba61f13d4d3785759f63dd7cd7ba2a4400/2b/619869ec/Scenes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48d11fb181ab4aa9a09a23f9d65598a626a00/17/8f0058a1/UnityModManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48d11fb181ab4aa9a09a23f9d65598a626a00/3d/0aa24acb/DrawType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48d11fb181ab4aa9a09a23f9d65598a626a00/3d/48a87827/DrawAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48d11fb181ab4aa9a09a23f9d65598a626a00/5e/6af7db3a/UnityModManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48d11fb181ab4aa9a09a23f9d65598a626a00/78/e5ab4407/DrawAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48d11fb181ab4aa9a09a23f9d65598a626a00/98/c9c5f0f4/IDrawable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/58f888e0d56a4620958c8e58a768c70d26200/99/133fb1f8/GUIStyle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/58f888e0d56a4620958c8e58a768c70d26200/a5/db9dda83/GUIStyleState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/58f888e0d56a4620958c8e58a768c70d26200/af/ca0f2598/GUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8f9a7ea347a44ffdad6c91b550598ccd52e178/6b/225bf581/Path.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/4895ba61f13d4d3785759f63dd7cd7ba2a4400/90/06bf6ae4/Assembly-CSharp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ArtOfRallyPaceNotes/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ArtOfRallyPaceNotes/PaceNote.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ArtOfRallyPaceNotes/Patches/OutOfBoundsManager/OutOfBoundsManagerFixedUpdatePatch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ArtOfRallyPaceNotes/Settings/PaceNotesSettings.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
+  <component name="ProjectId" id="23pT5Vhcm3fgV5bxuVi9vbxSH4i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rider.run.widget.enabled.cache": "false",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="375f0851-d3eb-4fde-bd86-67957c3468d0" name="Changes" comment="" />
+      <created>1642429849066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642429849066</updated>
+      <workItem from="1642429853110" duration="341000" />
+      <workItem from="1642430590698" duration="67000" />
+      <workItem from="1642430745734" duration="996000" />
+      <workItem from="1642438798340" duration="2101000" />
+      <workItem from="1642442947415" duration="147000" />
+      <workItem from="1642443836090" duration="3482000" />
+      <workItem from="1642510227926" duration="3631000" />
+      <workItem from="1642541706769" duration="1717000" />
+      <workItem from="1642543458568" duration="6716000" />
+      <workItem from="1657041012264" duration="11844000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add solution">
+      <created>1642429887429</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642429887429</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Swap .NET to 4.6.2">
+      <created>1642443849995</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642443849995</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revert some old changes">
+      <created>1642444334312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642444334312</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changes">
+      <created>1642444902925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642444902925</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix enabling/disabling">
+      <created>1642446300488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642446300488</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update README.md">
+      <created>1642446599014</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642446599014</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Remove stated changes in the README.md">
+      <created>1642446792996</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1642446792996</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update README.md">
+      <created>1642446904946</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1642446904946</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: color configuration">
+      <created>1642512575394</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642512575394</updated>
+    </task>
+    <task id="LOCAL-00010" summary="start hit mode">
+      <created>1642513459026</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642513459026</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Implement show on hit mode">
+      <created>1642545411641</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1642545411642</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Disable Leaderboards for always on">
+      <created>1642546333001</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1642546333001</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add leaderboard disabled notice">
+      <created>1642547758426</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642547758426</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fix exploit">
+      <created>1642548216308</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1642548216308</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Prevent exploit">
+      <created>1642548406781</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1642548406781</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update README.md">
+      <created>1642548791831</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1642548791831</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add solution" />
+    <MESSAGE value="Swap .NET to 4.6.2" />
+    <MESSAGE value="Revert some old changes" />
+    <MESSAGE value="Changes" />
+    <MESSAGE value="Fix enabling/disabling" />
+    <MESSAGE value="Remove stated changes in the README.md" />
+    <MESSAGE value="feat: color configuration" />
+    <MESSAGE value="start hit mode" />
+    <MESSAGE value="Implement show on hit mode" />
+    <MESSAGE value="Disable Leaderboards for always on" />
+    <MESSAGE value="Add leaderboard disabled notice" />
+    <MESSAGE value="Fix exploit" />
+    <MESSAGE value="Prevent exploit" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
