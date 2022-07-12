@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="375f0851-d3eb-4fde-bd86-67957c3468d0" name="Changes" comment="Add templates &amp; splits documentation" />
+    <list default="true" id="375f0851-d3eb-4fde-bd86-67957c3468d0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +105,7 @@
       <workItem from="1657407108505" duration="11498000" />
       <workItem from="1657444324952" duration="17728000" />
       <workItem from="1657554914443" duration="921000" />
-      <workItem from="1657565272816" duration="9829000" />
+      <workItem from="1657565272816" duration="10190000" />
     </task>
     <task id="LOCAL-00001" summary="Add solution">
       <created>1642429887429</created>

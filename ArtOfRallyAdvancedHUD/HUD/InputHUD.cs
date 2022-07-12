@@ -1,5 +1,6 @@
 ﻿using ArtOfRallyAdvancedHUD.Data;
 using UnityEngine;
+using UnityEngine.ProBuilder;
 using UnityModManagerNet;
 
 namespace ArtOfRallyAdvancedHUD.HUD
@@ -22,8 +23,8 @@ namespace ArtOfRallyAdvancedHUD.HUD
 
             InputSlider.Draw(position.position, new InputSliderConfig
             {
-                Label = $"{Mathf.RoundToInt(CarData.Drivetrain.rpm):D4}",
-                FeatureLabel = "RPM",
+                FeatureLabel = $"{Mathf.RoundToInt(CarData.Drivetrain.rpm):D4}",
+                Label = $"{Mathf.RoundToInt(CarData.Drivetrain.differentialSpeed):D}",
                 Feature = CarData.Drivetrain.revLimiterTriggered,
                 InputSlider =
                 {
@@ -38,7 +39,10 @@ namespace ArtOfRallyAdvancedHUD.HUD
                     Max = CarData.Drivetrain.maxRPM
                 }
             });
-            position.x += Main.Settings.SliderWidth + Main.Settings.Margin;
+            position.x += Main.Settings.SliderWidth;
+            GearHUD.Draw(position, CarData.Drivetrain);
+            position.x += Main.Settings.GearWidth + Main.Settings.Margin;
+            
             InputSlider.Draw(position.position, new InputSliderConfig
             {
                 Label = "Brake",
@@ -61,7 +65,7 @@ namespace ArtOfRallyAdvancedHUD.HUD
             InputSlider.Draw(position.position, new InputSliderConfig
             {
                 Label = "Clutch",
-                FeatureLabel = "ESP",
+                FeatureLabel = "",
                 Feature = CarData.CarController.ESPTriggered,
                 InputSlider =
                 {

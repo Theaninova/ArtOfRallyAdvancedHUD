@@ -12,6 +12,8 @@ namespace ArtOfRallyAdvancedHUD.Settings
 
         [Header("Sizing")] [Draw] public int Margin = 8;
 
+        [Draw] public int GearWidth = 15;
+
         [Draw] public int SliderWidth = 70;
 
         [Draw] public int SliderHeight = 150;
@@ -19,6 +21,8 @@ namespace ArtOfRallyAdvancedHUD.Settings
         [Draw] public int ValueSliderWidth = 10;
 
         [Draw] public int FontSize = 18;
+
+        [Draw] public int GearFontSize = 10;
 
         [Draw] public int TextSectionHeight = 30;
 

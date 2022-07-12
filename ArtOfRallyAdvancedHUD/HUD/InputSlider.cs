@@ -21,10 +21,9 @@ namespace ArtOfRallyAdvancedHUD.HUD
 
     public static class InputSlider
     {
-        private static readonly GUIStyle LabelStyle = new GUIStyle
+        public static readonly GUIStyle LabelStyle = new GUIStyle
         {
             alignment = TextAnchor.MiddleCenter,
-            fontStyle = FontStyle.Bold,
         };
 
         public static void Draw(Vector2 position, InputSliderConfig config)
