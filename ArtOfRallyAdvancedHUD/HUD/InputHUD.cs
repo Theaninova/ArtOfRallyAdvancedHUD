@@ -24,7 +24,7 @@ namespace ArtOfRallyAdvancedHUD.HUD
             InputSlider.Draw(position.position, new InputSliderConfig
             {
                 FeatureLabel = $"{Mathf.RoundToInt(CarData.Drivetrain.rpm):D4}",
-                Label = $"{Mathf.RoundToInt(CarData.Drivetrain.differentialSpeed):D}",
+                Label = GameEntryPoint.EventManager.hudManager.SpeedoText.text,
                 Feature = CarData.Drivetrain.revLimiterTriggered,
                 InputSlider =
                 {
