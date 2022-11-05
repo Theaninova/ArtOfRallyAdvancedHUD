@@ -1,6 +1,7 @@
 ﻿using ArtOfRallyAdvancedHUD.Data;
 using UnityEngine;
 using UnityEngine.ProBuilder;
+using UnityEngine.UI;
 using UnityModManagerNet;
 
 namespace ArtOfRallyAdvancedHUD.HUD
@@ -37,12 +38,32 @@ namespace ArtOfRallyAdvancedHUD.HUD
                     Value = CarData.Drivetrain.rpm,
                     Min = CarData.Drivetrain.minRPM,
                     Max = CarData.Drivetrain.maxRPM
-                }
+                },
+                POIs =
+                    new[]
+                    {
+                        new SliderMarkerConfig
+                        {
+                            Value = CarData.Drivetrain.maxPowerRPM,
+                            Max = CarData.Drivetrain.maxRPM,
+                            Min = CarData.Drivetrain.minRPM,
+                            Label = "P",
+                            Color = Main.Settings.MaxPowerMarkerColor
+                        },
+                        new SliderMarkerConfig
+                        {
+                            Value = CarData.Drivetrain.shiftUpRPM,
+                            Max = CarData.Drivetrain.maxRPM,
+                            Min = CarData.Drivetrain.minRPM,
+                            Label = "S",
+                            Color = Main.Settings.ShiftUpMarkerColor
+                        },
+                    }
             });
             position.x += Main.Settings.SliderWidth;
             GearHUD.Draw(position, CarData.Drivetrain);
             position.x += Main.Settings.GearWidth + Main.Settings.Margin;
-            
+
             InputSlider.Draw(position.position, new InputSliderConfig
             {
                 Label = "Brake",

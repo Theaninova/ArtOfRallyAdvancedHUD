@@ -10,6 +10,15 @@ namespace ArtOfRallyAdvancedHUD.HUD
         public float Value;
     }
 
+    public struct SliderMarkerConfig
+    {
+        public float Min;
+        public float Max;
+        public float Value;
+        public Color Color;
+        public string Label;
+    }
+
     public struct InputSliderConfig
     {
         public string Label;
@@ -17,6 +26,7 @@ namespace ArtOfRallyAdvancedHUD.HUD
         public bool Feature;
         public SliderConfig ValueSlider;
         public SliderConfig InputSlider;
+        public SliderMarkerConfig[]? POIs;
     }
 
     public static class InputSlider
@@ -89,6 +99,32 @@ namespace ArtOfRallyAdvancedHUD.HUD
                 config.ValueSlider.Min,
                 config.ValueSlider.Max
             );
+
+            if (config.POIs != null)
+            {
+                foreach (var poi in config.POIs)
+                {
+                    GUI.color = poi.Color;
+                    var posY = ((poi.Value - poi.Min) / (poi.Max - poi.Min)) * Main.Settings.SliderHeight;
+                    GUI.DrawTexture(
+                        new Rect(
+                            Main.Settings.SliderWidth - Main.Settings.ValueSliderWidth,
+                            Main.Settings.TextSectionHeight + Main.Settings.SliderHeight - posY,
+                            Main.Settings.ValueSliderWidth,
+                            Main.Settings.SliderMarkerHeight
+                        ),
+                        Texture2D.whiteTexture
+                    );
+                    GUI.Label(new Rect(
+                        Main.Settings.SliderWidth - Main.Settings.ValueSliderWidth -
+                        Main.Settings.SliderMarkerLabelOffset.x,
+                        Main.Settings.TextSectionHeight + Main.Settings.SliderHeight - posY +
+                        Main.Settings.SliderMarkerLabelOffset.y,
+                        0,
+                        0
+                    ), poi.Label, LabelStyle);
+                }
+            }
 
             GUI.EndGroup();
         }

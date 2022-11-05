@@ -20,6 +20,10 @@ namespace ArtOfRallyAdvancedHUD.Settings
 
         [Draw] public int ValueSliderWidth = 10;
 
+        [Draw] public Vector2 SliderMarkerLabelOffset = new Vector2(10, 2);
+
+        [Draw] public int SliderMarkerHeight = 2;
+
         [Draw] public int FontSize = 18;
 
         [Draw] public int GearFontSize = 10;
@@ -33,6 +37,10 @@ namespace ArtOfRallyAdvancedHUD.Settings
         [Draw] public Color InputColor = new Color(0.2f, 0.5f, 0.8f, 0.9f);
 
         [Draw] public Color ValueColor = new Color(0.5f, 0.7f, 1, 0.9f);
+
+        [Draw] public Color MaxPowerMarkerColor = new Color(1f, 1f, 1f, 1f);
+
+        [Draw] public Color ShiftUpMarkerColor = new Color(1f, 1f, 1f, 1f);
 
         [Draw] public Color WarningColor = new Color(1, 0.2f, 0.2f, 0.9f);
 
